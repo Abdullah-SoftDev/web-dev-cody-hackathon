@@ -34,7 +34,9 @@ export function DropdownMenuDemo() {
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuGroup className="md:hidden flex">
-          <DropdownMenuItem>Trending</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link href={"/trending"}>Trending</Link>
+            </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuGroup className="md:hidden flex">
           <DropdownMenuItem>

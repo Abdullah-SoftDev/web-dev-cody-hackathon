@@ -23,7 +23,7 @@ export function NavigationMenuDemo() {
         </Link>
         <NavigationMenuList className="w-full pr-20 hidden md:flex">
           <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/trending" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Trending
               </NavigationMenuLink>
