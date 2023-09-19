@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button"
+import { NavigationMenuDemo } from "./components/NavigationMenuDemo";
 
-export default function Home() {
+export default function page() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+    <NavigationMenuDemo/>
+    </>
   )
 }
