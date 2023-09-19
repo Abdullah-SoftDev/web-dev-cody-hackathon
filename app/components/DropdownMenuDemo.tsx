@@ -26,17 +26,18 @@ export function DropdownMenuDemo() {
       <DropdownMenuContent className="w-56 mr-3">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuGroup>
-          <DropdownMenuItem>
-            Profile
-            <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
-          </DropdownMenuItem>
-        </DropdownMenuGroup>
+        <Link href={`/profile/${"Abdullah"}`}>
+          <DropdownMenuGroup>
+            <DropdownMenuItem>
+              Profile
+            </DropdownMenuItem>
+          </DropdownMenuGroup>
+        </Link>
         <DropdownMenuSeparator />
         <DropdownMenuGroup className="md:hidden flex">
           <DropdownMenuItem>
             <Link href={"/trending"}>Trending</Link>
-            </DropdownMenuItem>
+          </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuGroup className="md:hidden flex">
           <DropdownMenuItem>
