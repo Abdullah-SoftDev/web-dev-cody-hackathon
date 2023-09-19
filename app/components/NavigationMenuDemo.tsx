@@ -30,7 +30,7 @@ export function NavigationMenuDemo() {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/create-prompt" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Create Prompt
               </NavigationMenuLink>

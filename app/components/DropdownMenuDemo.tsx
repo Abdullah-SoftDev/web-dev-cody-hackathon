@@ -13,6 +13,7 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@/components/ui/avatar"
+import Link from "next/link"
 export function DropdownMenuDemo() {
   return (
     <DropdownMenu>
@@ -36,7 +37,9 @@ export function DropdownMenuDemo() {
           <DropdownMenuItem>Trending</DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuGroup className="md:hidden flex">
-          <DropdownMenuItem>Create Prompt</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link href={"/create-prompt"}>Create Prompt</Link>
+          </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator className="md:hidden flex" />
         <DropdownMenuItem>
